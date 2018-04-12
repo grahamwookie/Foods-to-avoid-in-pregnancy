@@ -5,7 +5,20 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit; }
-
+  .gp-quote {
+      background-image: url(../files/gp-quote-mobi.png);
+      background-repeat: no-repeat;
+      height: 239px;
+      width: 343px;
+    }
+  @media (min-width: 769px) {
+    .gp-quote {
+      background-image: url(../files/gp-quote.png);
+      background-repeat: no-repeat;
+      height: 255px;
+      width: 630px;
+    }
+  }
 body,
 h1,
 h2,
