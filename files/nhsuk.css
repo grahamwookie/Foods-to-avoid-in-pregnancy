@@ -8,7 +8,7 @@ html {
   .gp-quote {
       background-image: url(../files/gp-quote-mobi.png);
       background-repeat: no-repeat;
-      height: 239px;
+      height: 284px;
       width: 343px;
     }
   @media (min-width: 769px) {
